@@ -1,6 +1,7 @@
 # Hiker Matching App
-Full-stack web application that designed to connect hiking enthusiasts based on their location, profile and preferences.
-Built with React, Spring Boot, WebSockets, and PostgreSQL, it supports rapid testing with 100+ seed users and is fully containerized with Docker.
+Full-stack web application designed to connect hiking enthusiasts based on their location, profile, and preferences.
+
+Built with **React**, **Spring Boot**, and **WebSockets**, backed by **Dockerized PostgreSQL**.
 
 ## 🌟 Core Features
 
@@ -19,7 +20,7 @@ Built with React, Spring Boot, WebSockets, and PostgreSQL, it supports rapid tes
 
 **🔐 Access Control:** Ensure users can only view profiles they are authorized to (e.g., connected users, pending requests, or matches from the recommendation engine)
 
-**🧪 Data Seeding Support:** Can be started in a special seed mode to load 100+ realistic test profiles, with consistent results.
+**🧪 Data Seeding Support:** Can be started in a customizable seed mode to load realistic test profiles, with consistent results.
 
 ---
 
@@ -106,7 +107,7 @@ npm start
 ```
 The frontend will be available at http://localhost:3000.
 
-### 🧪 Optional: Load 100+ Fake Users for Testing
+### 🧪 Optional: Customizable Seed Mode
 
 You can customize the number of users in `application-seed-data.properties`:
 ```properties
